@@ -1,0 +1,73 @@
+.Footer-part{
+    position: relative;
+
+}
+.Footer-part img{
+    width: 100%;
+    height: 60vh;
+}
+.Footer-part .over-foot{
+    position: absolute;
+    background-color: rgb(0,0,0,0.7);
+    inset: 0;
+    
+    
+}
+.Footer-part .footer-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+    text-align: center;
+
+}
+.Footer-part .footer-content h2{
+    font-size: 50px;
+    color: rgb(255, 255, 255 , 0.8);
+}
+.Footer-part .footer-content .para{
+    color: rgb(255, 255, 255 , 0.8);
+    font-size: 18px;
+}
+.Footer-part .footer-content ul{
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px;
+
+}
+.Footer-part .footer-content ul li{
+    list-style: none;
+
+}
+.Footer-part .footer-content ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.Footer-part .footer-content ul li a:hover{
+    color: rgb(255, 255, 255 , 0.8);
+
+}
+.Footer-part .footer-content .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.Footer-part .footer-content .icon .icon-one{
+    color: rgb(23,35,115 );
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s;
+
+}
+.Footer-part .footer-content .icon .icon-one:hover{
+    color: white;
+    background-color: rgb(0,0,0,0.7);
+    
+}

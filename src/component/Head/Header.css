@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.Head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    background-image: linear-gradient(180deg , rgba(0,0,0,0.7) 10%,transparent);
+    color: white;
+    z-index: 1;
+    position: fixed;
+}
+.Head .links ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.Head .links ul li{
+    margin-left: 35px;
+    font-size: 14px;
+
+}
+.Head .links ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.Head .links ul li a:hover{
+    color: rgb(255, 255, 255 , 0.8);
+
+}
+.Head .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    /* padding-top: 4px; */
+
+}
+.Head .logo div{
+    margin-left: 5px;
+}
+
+.Head .logo .logo-title h2{
+font-size: 25px;
+color: rgb(255, 255, 255 , 0.8);
+margin-bottom: 1px;
+
+}
+.login-in{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.login-in div{
+    margin-left: 20px;
+}
+.login-in .log img{
+    width: 3px;
+}
+.login-in .log {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+    margin-right: 10px;
+}
+.login-in .log li{
+    list-style: none;
+    font-size: 15px;
+}
+.login-in .log li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s
+}
+.login-in .log li a:hover{
+    color: rgb(255, 255, 255 , 0.8);
+}
+.login-in .Search .input-icon{
+    width: 100%;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 15px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255 , 0.7);
+    font-size: 17px;
+    text-align: left;
+    
+}
+
+.login-in .Search .input-icon:hover{
+    background-color: rgba(0,0,0,0.3);
+    
+}
+.logo .logo-img .icons{
+   font-size: 22px;
+   color: rgb(255, 255, 255 , 0.8);
+    margin-bottom: -2px;
+}
+.login-in .log .icon-login{
+        transition: 0.3s;
+}
+.login-in .log .icon-login:hover{
+    color: rgb(255, 255, 255 , 0.8);
+}
+
+  

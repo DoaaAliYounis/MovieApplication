@@ -1,0 +1,48 @@
+
+
+.Head-cas{
+position: relative;
+width: 100%;
+height: 100%;
+}
+.Head-cas .full img{
+    height: 100vh;
+    width: 100%;
+
+}
+.Head-cas .full .head-title{
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    width: 40%;
+    text-align: left;
+}
+.Head-cas .full .head-title button{
+    border: none;
+    margin-left: 10px;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255 , 0.7);
+    margin-top: 10px;
+    transition: 0.3s;
+    
+}
+.Head-cas .full .head-title .one{
+    background-color:  rgba(222, 184, 135, 0.705);
+    color: white;
+}
+.Head-cas .full .head-title button:hover{
+    background-color: rgb(0, 0, 0 ,0.4);
+    color: white;
+}
+.Head-cas .full .head-title h2{
+    font-size: 60px;
+    padding-bottom: 10px;
+    color: rgb(255, 255, 255 , 0.7);
+    font-weight: 700;
+}
+.Head-cas .full .head-title p{
+    font-size: 17px;
+    line-height: 20px;
+}
