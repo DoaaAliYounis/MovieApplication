@@ -2,7 +2,7 @@
   "name": "project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DoaaAliYounis.io/portfolio2",
+  "homepage": "https://doaaaliyounis.github.io/movielist/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
